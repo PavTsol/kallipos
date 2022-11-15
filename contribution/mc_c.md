@@ -1,6 +1,6 @@
 ---
 title: mc_c
-caption: Το περιεχομενό σας
-name: Παύλος Τσολακίδης
-AM: Π2018154
+caption: 'To perioxomeno mou'
+student: 'Παύλος Τσολακίδης'
+studentid: 'Π2018154'
 ---
