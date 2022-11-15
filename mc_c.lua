@@ -1,6 +1,6 @@
 function Image(img)
-  if img.classes:find('contribution',1) then
-    local f = io.open("contribution/" .. img.src, 'r')
+  if img.classes:find('mc_c',1) then
+    local f = io.open("mc_c/" .. img.src, 'r')
     local doc = pandoc.read(f:read('*a'))
     f:close()
     local caption = pandoc.utils.stringify(doc.meta.caption) or "Epigraph has not been set"
